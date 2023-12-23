@@ -1,0 +1,18 @@
+Pour développer un modèle de détection de fraude en ligne, voici les variables les plus
+ pertinentes à considérer :
+
+L’introduction des systèmes de paiement en ligne a beaucoup contribué à faciliter les paiements. Mais, dans le même temps, les fraudes aux paiements ont augmenté. Les fraudes aux paiements en ligne peuvent se produire avec n’importe qui utilisant n’importe quel système de paiement, en particulier lorsqu’il s’agit d’effectuer des paiements par carte de crédit. C’est pourquoi la détection de la fraude aux paiements en ligne est très importante pour les sociétés émettrices de cartes de crédit afin de s’assurer que les clients ne sont pas facturés pour les produits et services qu’ils n’ont jamais payés. Si vous souhaitez apprendre à détecter les fraudes aux paiements en ligne, cet article est fait pour vous. Dans cet article, je vais vous guider dans la tâche de détection de la fraude aux paiements en ligne avec l’apprentissage automatique à l’aide de Python.
+
+variables:
+step : Représente une unité de temps où 1 step équivaut à 1 heure.
+Type : Le type de transaction en ligne.
+montant : Le montant de la transaction.
+oldbalanceOrg : Solde avant la transaction du client à l'origine.
+newbalanceOrig : Solde après la transaction du client à l'origine.
+oldbalanceDest : Solde initial du destinataire avant la transaction.
+newbalanceDest : Le nouveau solde du destinataire après la transaction.
+Il est important de noter que le choix des variables dépend également du type de 
+modèle que vous utilisez. Le feature engineering, tel que décrit dans les sources [1] et
+[2], peut également jouer un rôle crucial dans l'amélioration des performances de votre
+modèle de détection de fraude.
+isFraud : transaction frauduleuse
