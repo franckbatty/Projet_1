@@ -6,7 +6,6 @@ import seaborn as sns
 import plotly.express as px
 
 # Imortation des base des données
-@st.cache_data
 train=pd.read_csv("data.csv")
 
 
