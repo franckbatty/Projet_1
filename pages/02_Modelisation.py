@@ -6,6 +6,7 @@ import plotly.express as px
 from PIL import Image
 
 # Imortation des base des données
+@st.cache_data
 train=pd.read_csv("traite.csv")
 #st.write(train.head())
 train=train.drop('Unnamed: 0',axis=1)
