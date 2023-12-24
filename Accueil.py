@@ -12,7 +12,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import AdaBoostClassifier 
-from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score,classification_report,ConfusionMatrixDisplay,RocCurveDisplay,confusion_matrix
 import joblib, pickle
 import streamlit as st
